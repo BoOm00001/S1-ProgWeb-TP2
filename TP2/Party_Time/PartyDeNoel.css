@@ -1,0 +1,61 @@
+
+body{
+    background-image: url("Img/santa-party.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+
+}
+label{
+
+    font-weight: 700;
+    font-size: 20px;
+}
+
+form{
+    position: relative;
+    left: 5%;
+    background-color: palevioletred;
+    border-radius: 10px;
+   max-width: 500px;
+    box-sizing: border-box; 
+    padding: 20px;
+    padding: 20px;
+}
+
+h1.text-center{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    left: 155px;
+}
+
+#messageErreurNom,
+
+#messageErreurAcompagnation,
+#ErreurNomAccompagnateur{
+    position: relative;
+    right: 23%;
+    width: 479px;
+    box-sizing: border-box;
+
+}
+#messageErreurPresence{
+    position: relative;
+    right: 23%;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+
+#messageErreurActivite,
+#messageErreurRepas,
+#messageErreurAcompagnation{
+    position: relative;
+    right: 23%;
+   max-width: 275px;
+   width: 90%;
+   box-sizing: border-box;
+}

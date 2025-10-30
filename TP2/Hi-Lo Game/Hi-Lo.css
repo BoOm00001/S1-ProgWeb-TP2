@@ -1,0 +1,123 @@
+*{
+    font-family: cursive;
+}
+
+header{
+    background-color: deepskyblue;
+    height: 150px;
+    display: flexbox;
+}
+
+p.Entete{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: inherit;
+    margin-top: none;
+    display: inline-block;
+    position: relative;
+  
+
+
+}
+main {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 100vh;           
+    margin: 0;               
+}
+body{
+
+    background-color: aliceblue;
+}
+p.nom_jeu{
+
+    text-align: center;
+    font-size: 30px;
+}
+div.jeu{
+
+    margin-top: 100px;
+}
+
+img.gif_gauche{
+
+    position: relative;
+    max-height: 146px;
+    height: auto;
+    border-radius: 50px;
+    border-style: solid;
+    bottom: 4px;
+    right: 0.5%;
+}
+
+img.gif_droite{
+
+    position: relative;
+    max-height: 146px;
+    height: auto;
+    border-radius: 50px;
+    border-style: solid;
+    bottom: 4px;
+    left: 20.5%;
+}
+
+
+
+input#nombre{
+
+    border-radius: 12px;
+    height: 30px;
+    border-color: cornflowerblue;
+}
+
+li{
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+p.regle_jeu{
+
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position : relative;
+}
+
+button#envoyer{
+
+    width: 25%;
+}
+
+
+#essaie-restant{
+
+    text-align: center; 
+
+}
+
+div.jeu{
+    width: 25%;
+}
+
+div.champJeu{
+position: relative;
+left: 15%;
+
+}
+#envoyer{
+    display: inline-block;
+   background-color: deepskyblue;
+   width: 100px;
+   border-radius: 12px;
+   height: 30px;
+}
+
+p.alert{
+
+    text-align: center;
+}
